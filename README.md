@@ -1,4 +1,8 @@
 # custom-sleep
+
+![DALL·E 2024-03-18 15 42 42 - Create an image that visualizes the concept of stack encryption in software development  The image should depict a digital stack of data being encrypt](https://github.com/h0lai/custom-sleep/assets/37847231/9d98224f-4105-44c5-a406-3b1aa6e0dce7)
+
+
 This Rust utility provides a novel approach to enhancing the security of applications by encrypting the stack during runtime. It utilizes the Windows API to manipulate memory permissions and to encrypt the stack contents before entering a sleep state. This method ensures that sensitive information stored in the stack is protected against unauthorized access and tampering.
 
 Features
