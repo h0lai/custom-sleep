@@ -18,10 +18,12 @@ Execution: Replace standard sleep calls with sleep_with_encryption to ensure tha
 
 Example
 
-#fn main() {
+```
+fn main() {
     // Encrypt the stack and sleep for 1000 milliseconds
     sleep_with_encryption(1000, |len| println!("Stack encrypted with length: {}", len));
-}#
+}
+```
 
 This example demonstrates how to integrate the stack encryption utility into a Rust application, providing an extra layer of security during sleep periods.
 
